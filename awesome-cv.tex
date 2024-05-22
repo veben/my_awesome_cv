@@ -26,7 +26,7 @@
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
-\colorlet{awesome}{awesome-red}
+\colorlet{awesome}{awesome-nephritis}
 % Uncomment if you would like to specify your own color
 % \definecolor{awesome}{HTML}{3E6D9C}
 
@@ -51,18 +51,20 @@
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
 % \photo[rectangle,edge,right]{./examples/profile}
-\name{Byungjin}{Park}
-\position{Site Reliability Engineer{\enskip\cdotp\enskip}Software Architect}
-\address{235, World Cup buk-ro, Mapo-gu, Seoul, 03936, Republic of Korea}
-
-\mobile{(+82) 10-9030-1843}
-\email{posquit0.bj@gmail.com}
-%\dateofbirth{January 1st, 1970}
-\homepage{www.posquit0.com}
-\github{posquit0}
-\linkedin{posquit0}
+\photo[circle,edge,right]{cv/profile_picture.png}
+\name{Beno\^{i}t}{VEYRIERE}
+\position{Technical Architect{\enskip\cdotp\enskip}Technical Presales}
+\address{Nantes, 44000, France}
+\dateofbirth{October, 1990}
+\mobile{(+33) 6 70 67 98 95}
+\email{benoit.veyriere@gmail.com}
+\homepage{veben.github.io}
+\github{veben}
+\linkedin{benoitveyriere}
+\stackoverflow{8718377}{veben}
+\credly{benoit-veyriere}
+% \facebook{facebook-id}
 % \gitlab{gitlab-id}
-% \stackoverflow{SO-id}{SO-name}
 % \twitter{@twit}
 % \skype{skype-id}
 % \reddit{reddit-id}
@@ -74,38 +76,33 @@
 % \googlescholar{googlescholar-id}{}
 % \extrainfo{extra information}
 
-\quote{``Be the change that you want to see in the world."}
-
+% \quote{``Cloud and DevOps Enthusiast"}
 
 %-------------------------------------------------------------------------------
+
 \begin{document}
 
 % Print the header with above personal information
 % Give optional argument to change alignment(C: center, L: left, R: right)
-\makecvheader[C]
+\makecvheader[L]
 
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
-\makecvfooter
-  {\today}
-  {Byungjin Park~~~·~~~Résumé}
-  {\thepage}
+%\makecvfooter
+%  {\today}
+%  {Byungjin Park~~~·~~~Résumé}
+%  {\thepage}
 
 
 %-------------------------------------------------------------------------------
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-\input{resume/summary.tex}
-\input{resume/experience.tex}
-\input{resume/honors.tex}
-\input{resume/certificates.tex}
-% \input{resume/presentation.tex}
-% \input{resume/writing.tex}
-% \input{resume/committees.tex}
-\input{resume/education.tex}
-% \input{resume/extracurricular.tex}
-
+\input{cv/summary.tex}
+\input{cv/experience.tex}
+\input{cv/skills.tex}
+\input{cv/certificates.tex}
+\input{cv/education.tex}
 
 %-------------------------------------------------------------------------------
 \end{document}
